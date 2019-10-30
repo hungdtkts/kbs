@@ -1,0 +1,84 @@
+@import './variables';
+
+html,
+body {
+    font-size: 13px;
+}
+
+*,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Nunito', 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    // width: 100%;
+    height: 100%;
+    color: #000;
+
+    &:link, 
+    &:hover, 
+    &:focus, 
+    &:active, 
+    &:visited {
+        text-decoration: none;
+    }
+}
+
+.center {
+    &-1 {
+        text-align: center;
+    }
+
+    &-2 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &-3 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* layout */
+@import './layout';
+
+.sidebar-box,
+.content-box {
+    background: #fff;
+    box-shadow: $box-shadow-1;  
+}
+
+/* sidebar */
+@import './sidebar';
+
+/* content */
+@import './content';
+
+/* buttons */
+@import './buttons';
+
+/* components */
+@import './components';
+
+.sidebar-box__avatar-box,
+.btn-box,
+.title-box {
+    margin-bottom: 10px;
+}
+
+/* sizes */
+@import './sizes';

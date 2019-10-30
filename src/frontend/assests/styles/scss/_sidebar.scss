@@ -1,0 +1,39 @@
+.sidebar-box {
+    $sidebar: &;
+    grid-area: section-1;
+    position: fixed;
+    top: 0;
+    width: 20rem;
+    height: 100%;
+    background: #fff;
+
+    &__section {
+        border-bottom: 1px solid #ddd;
+    }
+
+    &__user-info-box {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        background: #eee;
+    }
+
+    &__link {
+        height: 50px;
+
+        &:hover {
+            color: #fff;
+            background: $color-1;
+        }
+
+        &.active {
+            color: #fff;
+            background: $color-2;
+        }
+    }
+}

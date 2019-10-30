@@ -1,0 +1,13 @@
+.content-box {
+    grid-area: section-2;
+    padding: 10px;
+
+    &__section {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    &__btn-box {
+        padding: 0 5px;
+    }
+}
