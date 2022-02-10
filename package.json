@@ -10,7 +10,7 @@
     "express-generator": "^4.16.1",
     "mysql": "^2.17.1",
     "mysql2": "^1.7.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.4",
     "react": "^16.10.2",
     "react-datetime-picker": "^2.7.1",
